@@ -50,7 +50,7 @@ group :development, :test do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 
-  # This was added by stj 4/18/2015
+  # This was added by stj 4/18rail/2015
   # You can use the rails_layout gem to generate files for an improved application layout. It will add navigation links and flash messages plus simple CSS classes for styling.
   gem 'rails_layout' 
 
