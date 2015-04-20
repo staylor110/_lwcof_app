@@ -1,13 +1,9 @@
 Rails.application.routes.draw do
-  resources :events
-
   get 'pages/contact'
 
   get 'pages/home'
 
   get 'pages/about'
-
-  get 'events/index'
 
   root :to => 'pages#home'
 
