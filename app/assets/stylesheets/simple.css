@@ -1,7 +1,49 @@
 /*
  * Simple CSS stylesheet for a navigation bar and flash messages.
  */
-main {
+
+body
+{
+  margin-left:0px;
+  margin-right:0px;
+  margin-top:0px;
+}
+
+#wrapper
+{
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: #FFFFFF;
+  width: 100%;
+}
+
+header, main {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+header
+{
+  height: 120px;
+}
+
+
+#left_header, #mid_header, #right_header
+{
+  width:42%;
+}
+
+#left_header
+{
+  width:15%;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* main {
   background-color: #eee;
   padding-bottom: 80px;
   width: 100%;
@@ -15,7 +57,7 @@ header {
   box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
+} */
 ul.nav li {
   display: inline;
 }
